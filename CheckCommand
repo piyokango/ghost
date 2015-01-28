@@ -1,1 +1,1 @@
-$ lsof | grep libc | awk '{print $1}' | sort | uniq
+lsof | grep libc | awk '{print $1}' | sort | uniq
